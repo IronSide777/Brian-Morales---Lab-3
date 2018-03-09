@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>CSS Input</title>
+  </head>
+    <style>
+      .last{
+        margin-left: 25px;
+        margin-bottom: 4px;
+      }
+
+      .first{
+        margin-left: 23px;
+        margin-bottom: 4px;
+      }
+
+      .sbutton{
+        margin-right: 47px;
+      }
+
+      .first:hover{
+          width: 250px;
+          height: 33px;
+          background-color: cyan;
+      }
+
+        .first:focus{
+            width: 250px;
+            height: 33px;
+            background-color: yellow;
+            font-size: x-large;
+            font-weight:300;
+            color: green;
+        }
+
+
+      .last:hover{
+          width: 250px;
+          height: 33px;
+          background-color: cyan;
+      }
+
+        .last:focus{
+            width: 250px;
+            height: 33px;
+            background-color: yellow;
+            font-size: x-large;
+            font-weight:300;
+            color: green;
+        }
+
+        .sbutton:hover{
+            background-color: cyan;
+        }
+
+          .sbutton:focus{
+              background-color: yellow;
+          }
+
+          .button:hover{
+              background-color: cyan;
+          }
+
+            .buton:focus{
+                background-color: yellow;
+            }
+
+
+
+    </style>
+      <body>
+
+          <form action="post">
+
+      <label>
+        Last Name:
+        <input class="last" type="text" name="Last Name">
+      </label>
+    </br>
+
+      <label>
+        First Name:
+        <input class="first" type="text" name="First Name" autofocus>
+      </label>
+    </br>
+
+      <label>
+        Email Address:
+        <input class="email" type="text" name="E-mail">
+      </label>
+    </br>
+    <input class="sbutton" type="submit" value="Submit">
+    <input class="button" type="reset" value="Clear">
+      </body>
+<html>
